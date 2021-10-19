@@ -3,11 +3,11 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `Relatorio limpeza`,
-    position: `Relatorio limpeza e pintura UMV e UAE`,
-    description: `Relatorio de progresso das atividades de limpeza e pintura das usinas Morro Vermelho e Agua Emendada`,
+    title: `Walter Calegari`,
+    position: `Desbravando as cryptomoedas`,
+    description: `Nosso blog tem como objetivo mostrar os projetos por tras das mais variadas cryptomoedas `,
     author: `@calegari`,
-    siteUrl: `https://priceless-payne-84632f.netlify.app/`,
+    siteUrl: `https://stoic-meitner-039dc1.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -68,12 +68,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Relatorio`,
-        short_name: `gfs`,
+        short_name: `walter calegari`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
         display: `minimal-ui`,
-        icon: `src/images/logo_mexido.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo_blog 1.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
