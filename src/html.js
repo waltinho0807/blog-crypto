@@ -75,6 +75,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script type="text/javascript" data-adel="atag" src="//achcdn.com/script/atg.js" czid="piz4dwrs"></script>
       </body>
     </html>
   )
